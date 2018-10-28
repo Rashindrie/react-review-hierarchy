@@ -1,0 +1,4 @@
+.idea/
+package-lock.json
+fullstack_template/static/node_modules/
+fullstack_template/static/package-lock.json
