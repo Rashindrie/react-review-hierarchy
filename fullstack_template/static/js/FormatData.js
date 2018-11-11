@@ -1,524 +1,415 @@
 export const reviews = [
     {
-    "children": [
-        {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "polarity": {
-                                        "negative": 33.33,
-                                        "neutral": 4.76,
-                                        "positive": 61.9
-                                    },
-                                    "subtitle": [
-                                        "I think I've had some the best meals of my life at minnow.",
-                                        "It's simply the best meal in NYC."
-                                    ],
-                                    "title": "meal"
-                                },
-                                {
-                                    "children": [],
-                                    "polarity": {
-                                        "negative": 36.36,
-                                        "neutral": 9.09,
-                                        "positive": 54.55
-                                    },
-                                    "subtitle": [
-                                        "I am not a vegetarian but, almost all the dishes were great.",
-                                        "The place is a BISTRO which means: simple dishes and wine served efficiently in a bustling atmosphere."
-                                    ],
-                                    "title": "dish"
-                                }
-                            ],
-                            "polarity": {
-                                "negative": 36.36,
-                                "neutral": 9.09,
-                                "positive": 54.55
+        "title": "Restaurant",
+        "children": [
+            {
+                "title": "Food",
+                "children": [
+                    {
+                        "title": "Sea Food",
+                        "children": [
+                            {
+                                "title": "Fish",
+                                "subtitle": ["We had Pam's special fried fish and it was amazing. ", "Fish was overdone. ", "I've never had bad service and the fish is fresh and delicious."],
+                                "children": []
                             },
-                            "subtitle": [
-                                "I am not a vegetarian but, almost all the dishes were great.",
-                                "The place is a BISTRO which means: simple dishes and wine served efficiently in a bustling atmosphere."
-                            ],
-                            "title": "dish"
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "polarity": {
-                                        "negative": 46.43,
-                                        "neutral": 3.57,
-                                        "positive": 50.0
-                                    },
-                                    "subtitle": [
-                                        "i happen to have a policy that goes along with a little bit of self-respect, which includes not letting a waiter intimidate me, i.e. make me feel bad asking for trivialities like water, or the check.",
-                                        "The atmosphere is noisy and the waiters are literally walking around doing things as fast as they can."
-                                    ],
-                                    "title": "waiter"
-                                },
-                                {
-                                    "children": [],
-                                    "polarity": {
-                                        "negative": 60.0,
-                                        "neutral": 20.0,
-                                        "positive": 20.0
-                                    },
-                                    "subtitle": [
-                                        "The tables are crammed way too close, the menu is typical of any Italian restaurant, and the wine list is simply overpriced.",
-                                        "Although the tables may be closely situated, the candle-light, food-quality and service overcompensate."
-                                    ],
-                                    "title": "table"
-                                }
-                            ],
-                            "polarity": {
-                                "negative": 46.43,
-                                "neutral": 3.57,
-                                "positive": 50.0
-                            },
-                            "subtitle": [
-                                "i happen to have a policy that goes along with a little bit of self-respect, which includes not letting a waiter intimidate me, i.e. make me feel bad asking for trivialities like water, or the check.",
-                                "The atmosphere is noisy and the waiters are literally walking around doing things as fast as they can."
-                            ],
-                            "title": "waiter"
-                        }
-                    ],
-                    "polarity": {
-                        "negative": 33.33,
-                        "neutral": 4.76,
-                        "positive": 61.9
+                            {
+                                "title": "Shrimp",
+                                "subtitle": ["My wife had the fried shrimp which are huge and loved it.", "The lobster sandwich is good and the spaghetti with Scallops and Shrimp is great."],
+                                "chldren": []
+                            }
+                        ],
+                        "subtitle": ["The seafood is amazing, there's a good wine list, and the ever-changing menu always offers some great surprises. ", "Mermaid Inn is an overall good restaurant with really good seafood. ", "Even though its good seafood, the prices are too high."]
                     },
-                    "subtitle": [
-                        "I think I've had some the best meals of my life at minnow.",
-                        "It's simply the best meal in NYC."
-                    ],
-                    "title": "meal"
-                },
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "polarity": {
-                                        "negative": 20.0,
-                                        "neutral": 13.33,
-                                        "positive": 66.67
-                                    },
-                                    "subtitle": [
-                                        "Decent wine at reasonable prices.",
-                                        "We have been to this place many times, and always have great food, wine, and service."
-                                    ],
-                                    "title": "wine"
-                                },
-                                {
-                                    "children": [],
-                                    "polarity": {
-                                        "negative": 27.78,
-                                        "neutral": 5.56,
-                                        "positive": 66.67
-                                    },
-                                    "subtitle": [
-                                        "The drinks are always welll made and wine selection is fairly priced.",
-                                        "Drinks way over priced."
-                                    ],
-                                    "title": "drink"
-                                }
-                            ],
-                            "polarity": {
-                                "negative": 20.0,
-                                "neutral": 13.33,
-                                "positive": 66.67
+                    {
+                        "title": "Other",
+                        "children": [
+                            {
+                                "title": "Pizza",
+                                "children": [],
+                                "subtitle": ["The pizza was delivered cold and the cheese wasn't even fully melted! ", "The pizza is overpriced and soggy. ", "Great pizza and fantastic service."]
                             },
-                            "subtitle": [
-                                "Decent wine at reasonable prices.",
-                                "We have been to this place many times, and always have great food, wine, and service."
-                            ],
-                            "title": "wine"
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [
-                                        {
-                                            "children": [],
-                                            "polarity": {
-                                                "negative": 21.85,
-                                                "neutral": 6.3,
-                                                "positive": 71.85
-                                            },
-                                            "subtitle": [
-                                                "The food was lousy - too sweet or too salty and the portions tiny.",
-                                                "I have eaten at Saul, many times, the food is always consistently, outrageously good."
-                                            ],
-                                            "title": "food"
-                                        },
-                                        {
-                                            "children": [],
-                                            "polarity": {
-                                                "negative": 22.22,
-                                                "neutral": 2.78,
-                                                "positive": 75.0
-                                            },
-                                            "subtitle": [
-                                                "The pizza was delivered cold and the cheese wasn't even fully melted!",
-                                                "The pizza is overpriced and soggy."
-                                            ],
-                                            "title": "pizza"
-                                        }
-                                    ],
-                                    "polarity": {
-                                        "negative": 22.22,
-                                        "neutral": 2.78,
-                                        "positive": 75.0
-                                    },
-                                    "subtitle": [
-                                        "The pizza was delivered cold and the cheese wasn't even fully melted!",
-                                        "The pizza is overpriced and soggy."
-                                    ],
-                                    "title": "pizza"
-                                },
-                                {
-                                    "children": [
-                                        {
-                                            "children": [],
-                                            "polarity": {
-                                                "negative": 24.14,
-                                                "neutral": 3.45,
-                                                "positive": 72.41
-                                            },
-                                            "subtitle": [
-                                                "The sushi seemed pretty fresh and was adequately proportioned.",
-                                                "This is the best sushi in new york city - hands down."
-                                            ],
-                                            "title": "sushi"
-                                        },
-                                        {
-                                            "children": [],
-                                            "polarity": {
-                                                "negative": 50.0,
-                                                "neutral": 6.25,
-                                                "positive": 43.75
-                                            },
-                                            "subtitle": [
-                                                "Went on a 3 day oyster binge, with Fish bringing up the closing, and I am so glad this was the place it O trip ended, because it was so great!",
-                                                "Fish was overdone."
-                                            ],
-                                            "title": "fish"
-                                        }
-                                    ],
-                                    "polarity": {
-                                        "negative": 24.14,
-                                        "neutral": 3.45,
-                                        "positive": 72.41
-                                    },
-                                    "subtitle": [
-                                        "The sushi seemed pretty fresh and was adequately proportioned.",
-                                        "This is the best sushi in new york city - hands down."
-                                    ],
-                                    "title": "sushi"
-                                }
-                            ],
-                            "polarity": {
-                                "negative": 24.14,
-                                "neutral": 3.45,
-                                "positive": 72.41
+                            {
+                                "title": "Sushi",
+                                "children": [],
+                                "subtitle": ["The sushi seemed pretty fresh and was adequately proportioned. ", "This is the best sushi in new york city - hands down. ", "The sushi is amazing!!! "]
                             },
-                            "subtitle": [
-                                "The sushi seemed pretty fresh and was adequately proportioned.",
-                                "This is the best sushi in new york city - hands down."
-                            ],
-                            "title": "sushi"
-                        }
-                    ],
-                    "polarity": {
-                        "negative": 24.14,
-                        "neutral": 3.45,
-                        "positive": 72.41
-                    },
-                    "subtitle": [
-                        "The sushi seemed pretty fresh and was adequately proportioned.",
-                        "This is the best sushi in new york city - hands down."
-                    ],
-                    "title": "sushi"
-                }
-            ],
-            "polarity": {
-                "negative": 33.33,
-                "neutral": 4.76,
-                "positive": 61.9
+                            {
+                                "title": "Meals",
+                                "children": [
+                                    {
+                                        "title": "Mains",
+                                        "children": [
+                                            {
+                                                "title": "Dishes",
+                                                "children": [
+                                                    {
+                                                        "title": "Food",
+                                                        "children": [],
+                                                        "subtitle": ["The food was lousy - too sweet or too salty and the portions tiny. ", "I have eaten at Saul, many times, the food is always consistently, outrageously good. ", "Food was okay, nothing great."]
+                                                    },
+                                                    {
+                                                        "title": "Meal",
+                                                        "children": [],
+                                                        "subtitle": ["I think I've had some the best meals of my life at minnow. ", "It's simply the best meal in NYC. ", "We won't go to this place again for a good meal."]
+                                                    },
+                                                    {
+                                                        "title": "Dishes",
+                                                        "children": [],
+                                                        "subtitle": ["The menu is limited but almost all of the dishes are excellent. ", "Excellent atmosphere, delicious dishes good and friendly service. ", "The food was average or above including some surprising tasty dishes."]
+                                                    }
+                                                ],
+                                                "subtitle": ["The menu is limited but almost all of the dishes are excellent. ", "Excellent atmosphere, delicious dishes good and friendly service. ", "The food was average or above including some surprising tasty dishes."]
+                                            },
+                                            {
+                                                "title": "Menu",
+                                                "children": [],
+                                                "subtitle": ["The menu looked great, and the waiter was very nice, but when the food came, it was average. ", "Everything on the menu is great. ", "The menu is fairly simple without much descriptions. "]
+                                            }
+                                        ],
+                                        "subtitle": ["The main entree was also very good. ", "When the main course finally arrived (another 45mins) half of our order was missing. "]
+                                    },
+                                    {
+                                        "title": "Dessert",
+                                        "children": [],
+                                        "subtitle": ["Tiny dessert was $8.00...just plain overpriced for what it is. ", "Someone else recommended the dessert - we also left that. ", "The entree was bland and small, dessert was not inspired."]
+                                    }
+                                ],
+                                "subtitle": ["I think I've had some the best meals of my life at minnow. ", "It's simply the best meal in NYC. ", "We won't go to this place again for a good meal."]
+                            }
+                        ],
+                        "subtitle": ["Everything was wonderful; food, drinks, staff, mileau. ","Everything was authentic. ","We love the food, drinks, and atmosphere! "]
+                    }
+                ],
+                "subtitle": ["The food was lousy - too sweet or too salty and the portions tiny. ", "I have eaten at Saul, many times, the food is always consistently, outrageously good. ", "Food was okay, nothing great."]
             },
-            "subtitle": [
-                "I think I've had some the best meals of my life at minnow.",
-                "It's simply the best meal in NYC."
-            ],
-            "title": "meal"
-        },
-        {
-            "children": [
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "polarity": {
-                                        "negative": 27.81,
-                                        "neutral": 4.64,
-                                        "positive": 67.55
-                                    },
-                                    "subtitle": [
-                                        "service was devine, oysters where a sensual as they come, and the price can't be beat!!!",
-                                        "Everything is always cooked to perfection, the service is excellent, the decor cool and understated."
-                                    ],
-                                    "title": "service"
-                                },
-                                {
-                                    "children": [],
-                                    "polarity": {
-                                        "negative": 41.86,
-                                        "neutral": 2.33,
-                                        "positive": 55.81
-                                    },
-                                    "subtitle": [
-                                        "We, there were four of us, arrived at noon - the place was empty - and the staff acted like we were imposing on them and they were very rude.",
-                                        "My wife and I always enjoy the young, not always well trained but nevertheless friendly, staff, all of whom have a story."
-                                    ],
-                                    "title": "staff"
-                                }
-                            ],
-                            "polarity": {
-                                "negative": 41.86,
-                                "neutral": 2.33,
-                                "positive": 55.81
-                            },
-                            "subtitle": [
-                                "We, there were four of us, arrived at noon - the place was empty - and the staff acted like we were imposing on them and they were very rude.",
-                                "My wife and I always enjoy the young, not always well trained but nevertheless friendly, staff, all of whom have a story."
-                            ],
-                            "title": "staff"
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "polarity": {
-                                        "negative": 15.38,
-                                        "neutral": 19.23,
-                                        "positive": 65.38
-                                    },
-                                    "subtitle": [
-                                        "Everything is always cooked to perfection, the service is excellent, the decor cool and understated.",
-                                        "The decor is night tho...but they REALLY need to clean that vent in the ceiling...its quite un-appetizing, and kills your effort to make this place look sleek and modern."
-                                    ],
-                                    "title": "decor"
-                                },
-                                {
-                                    "children": [
-                                        {
-                                            "children": [],
-                                            "polarity": {
-                                                "negative": 12.9,
-                                                "neutral": 9.68,
-                                                "positive": 77.42
-                                            },
-                                            "subtitle": [
-                                                "Leon is an East Village gem: casual but hip, with well prepared basic French bistro fare, good specials, a warm and lively atmosphere.",
-                                                "The atmosphere isn't the greatest , but I suppose that's how they keep the prices down ."
-                                            ],
-                                            "title": "atmosphere"
-                                        },
-                                        {
-                                            "children": [],
-                                            "polarity": {
-                                                "negative": 18.75,
-                                                "neutral": 12.5,
-                                                "positive": 68.75
-                                            },
-                                            "subtitle": [
-                                                "The ambience is pretty and nice for conversation, so a casual lunch here would probably be best.",
-                                                "However, go for the ambience, and consider the food just a companion for a trip across the world!"
-                                            ],
-                                            "title": "ambience"
-                                        }
-                                    ],
-                                    "polarity": {
-                                        "negative": 18.75,
-                                        "neutral": 12.5,
-                                        "positive": 68.75
-                                    },
-                                    "subtitle": [
-                                        "The ambience is pretty and nice for conversation, so a casual lunch here would probably be best.",
-                                        "However, go for the ambience, and consider the food just a companion for a trip across the world!"
-                                    ],
-                                    "title": "ambience"
-                                }
-                            ],
-                            "polarity": {
-                                "negative": 18.75,
-                                "neutral": 12.5,
-                                "positive": 68.75
-                            },
-                            "subtitle": [
-                                "The ambience is pretty and nice for conversation, so a casual lunch here would probably be best.",
-                                "However, go for the ambience, and consider the food just a companion for a trip across the world!"
-                            ],
-                            "title": "ambience"
-                        }
-                    ],
-                    "polarity": {
-                        "negative": 18.75,
-                        "neutral": 12.5,
-                        "positive": 68.75
+            {
+                "title": "Beverages",
+                "children": [
+                    {
+                        "title": "Wine",
+                        "children": [],
+                        "subtitle": ["Decent wine at reasonable prices. ", "We have been to this place many times, and always have great food, wine, and service. ", "The bar is very well stocked with interesting beers and well priced wines."]
                     },
-                    "subtitle": [
-                        "The ambience is pretty and nice for conversation, so a casual lunch here would probably be best.",
-                        "However, go for the ambience, and consider the food just a companion for a trip across the world!"
-                    ],
-                    "title": "ambience"
-                },
-                {
-                    "children": [
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "polarity": {
-                                        "negative": 20.0,
-                                        "neutral": 6.67,
-                                        "positive": 73.33
-                                    },
-                                    "subtitle": [
-                                        "The food was lousy - too sweet or too salty and the portions tiny.",
-                                        "Best Pastrami I ever had and great portion without being ridiculous."
-                                    ],
-                                    "title": "portion"
-                                },
-                                {
-                                    "children": [
-                                        {
-                                            "children": [],
-                                            "polarity": {
-                                                "negative": 33.33,
-                                                "neutral": 33.33,
-                                                "positive": 33.33
-                                            },
-                                            "subtitle": [
-                                                "It is also extremely well priced."
-                                            ],
-                                            "title": "price"
-                                        },
-                                        {
-                                            "children": [],
-                                            "polarity": {
-                                                "negative": 33.33,
-                                                "neutral": 33.33,
-                                                "positive": 33.33
-                                            },
-                                            "subtitle": [
-                                                "It is also extremely well priced."
-                                            ],
-                                            "title": "price"
-                                        }
-                                    ],
-                                    "polarity": {
-                                        "negative": 33.33,
-                                        "neutral": 33.33,
-                                        "positive": 33.33
-                                    },
-                                    "subtitle": [
-                                                "It is also extremely well priced."
-                                            ],
-                                    "title": "price"
-                                }
-                            ],
-                            "polarity": {
-                                "negative": 33.33,
-                                "neutral": 33.33,
-                                "positive": 33.33
-                            },
-                            "subtitle": [
-                                "It is also extremely well priced."
-                            ],
-                            "title": "price"
-                        },
-                        {
-                            "children": [
-                                {
-                                    "children": [],
-                                    "polarity": {
-                                        "negative": 47.37,
-                                        "neutral": 15.79,
-                                        "positive": 36.84
-                                    },
-                                    "subtitle": [
-                                        "The seafood is amazing, there's a good wine list, and the ever-changing menu always offers some great surprises.",
-                                        "With the great variety on the menu , I eat here often and never get bored ."
-                                    ],
-                                    "title": "menu"
-                                },
-                                {
-                                    "children": [],
-                                    "polarity": {
-                                        "negative": 26.52,
-                                        "neutral": 3.79,
-                                        "positive": 69.7
-                                    },
-                                    "subtitle": [
-                                        "Judging from previous posts this used to be a good place, but not any longer.",
-                                        "Avoid this place!"
-                                    ],
-                                    "title": "place"
-                                }
-                            ],
-                            "polarity": {
-                                "negative": 47.37,
-                                "neutral": 15.79,
-                                "positive": 36.84
-                            },
-                            "subtitle": [
-                                "The seafood is amazing, there's a good wine list, and the ever-changing menu always offers some great surprises.",
-                                "With the great variety on the menu , I eat here often and never get bored ."
-                            ],
-                            "title": "menu"
-                        }
-                    ],
-                    "polarity": {
-                        "negative": 33.33,
-                        "neutral": 33.33,
-                        "positive": 33.33
+                    {
+                        "title": "Drinks",
+                        "childre": [],
+                        "subtitle": ["The drinks are always welll made and wine selection is fairly priced. ", "Drinks way over priced. ", "We love the food, drinks, and atmosphere!"]
                     },
-                    "subtitle": [
-                        "It is also extremely well priced."
-                    ],
-                    "title": "price"
-                }
-            ],
-            "polarity": {
-                "negative": 18.75,
-                "neutral": 12.5,
-                "positive": 68.75
+                    {
+                        "title": "Juice",
+                        "children": [],
+                        "subtitle": ["noodles with shrimp and chicken and coconut juice is the MUST!"]
+                    }
+                ],
+                "subtitle": ["The drinks are delicious. ", "Good drinks. ", "Go here for the drinks!"]
             },
-            "subtitle": [
-                "The ambience is pretty and nice for conversation, so a casual lunch here would probably be best.",
-                "However, go for the ambience, and consider the food just a companion for a trip across the world!"
-            ],
-            "title": "ambience"
-        }
-    ],
-    "polarity": {
-        "negative": 33.33,
-        "neutral": 4.76,
-        "positive": 61.9
-    },
-    "subtitle": [
-        "I think I've had some the best meals of my life at minnow.",
-        "It's simply the best meal in NYC."
-    ],
-    "title": "meal"
-}
+            {
+                "title": "Quality",
+                "children": [
+                    {
+                        "title": "Customer Service",
+                        "children": [
+                            {
+                                "title": "Hospitality",
+                                "children": [
+                                    {
+                                        "title": "Service",
+                                        "subtitle": ["Service- friendly and attentive. ", "however, it's the service that leaves a bad taste in my mouth. ", "Service is top notch."],
+                                        "children": [
+                                            {
+                                                "title": "Service",
+                                                "subtitle": ["Service- friendly and attentive. ", "however, it's the service that leaves a bad taste in my mouth. ", "Service is top notch."],
+                                                "children": []
+                                            },
+                                            {
+                                                "title": "Staff",
+                                                "subtitle": ["All the staff is absolutely professional!! ", "The staff was accomodating, the food was absolutely delicious and the place is lovely.", "The service was impeccable and unobtrusive -- the staff knows what they are there to do -- to know their menu, present your meal, and attend to your needs."],
+                                                "children": []
+                                            },
+                                            {
+                                                "title": "Waiter",
+                                                "subtitle": ["Truly the mark of an attentive waiter. ", "The food is so cheap and the waiters are nice. ", "We were greeted promptly by the waiter who was very nice and cordial."],
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "title": "Location",
+                                        "children": [
+                                            {
+                                                "title": "Place",
+                                                "children": [],
+                                                "subtitle": ["Make sure you try this place as often as you can. ", "This place is great. ", "The place is small and cramped but the food is fantastic."]
+                                            },
+                                            {
+                                                "title": "Vibe",
+                                                "children": [
+                                                    {
+                                                        "title": "Atmosphere",
+                                                        "subtitle": ["Nice atmosphere, the service was very pleasant and the desert was good. ", "There is something about their atmosphere that makes me come back nearly every week. ", "Everyone raved about the atmosphere (elegant rooms and absolutely incomparable views) and the fabulous food!"],
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "title": "Ambience",
+                                                        "subtitle": ["The ambience is pretty and nice for conversation, so a casual lunch here would probably be best. ", "Ambience is delightful, service impeccable. ", "The location and ambience is Ok but the food is what makes up for it."],
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "title": "Decor",
+                                                        "subtitle": ["Everything is always cooked to perfection, the service is excellent, the decor cool and understated. ", "The decor is night tho...but they REALLY need to clean that vent in the ceiling...its quite un-appetizing, and kills your effort to make this place look sleek and modern. ", "The service is excellent, the decor is great, and the food is delicious and comes in large portions."],
+                                                        "children": []
+                                                    }
+                                                ],
+                                                "subtitle": ["It may be a bit packed on weekends, but the vibe is good and it is the best French food you will find in the area. ","Great vibe, lots of people. ","Best of all is the warm vibe, the owner is super friendly and service is fast."]
+                                            }
+                                        ],
+                                        "subtitle": ["The location is perfect. ", "Its location is good and the fact that Hutner College is near and their prices are very reasonable, makes students go back to Suan again and again.", "Love the scene first off- the place has a character and nice light to it..very fortunate, location wise."]
+                                    }
+                                ],
+                                "subtitle": ["The hostess and the waitress were incredibly rude and did everything they could to rush us out. ","The counter service is bad. "]
+                            },
+                            {
+                                "title": "Worthiness",
+                                "children": [
+                                    {
+                                        "title": "Portions",
+                                        "children": [],
+                                        "subtitle": ["And really large portions. ", "The food was pretty tradional but it was hot and good with large portions. ", "Just because it's cheap does NOT mean the portions are small or the food is nasty, IT IS GREAT!"]
+                                    },
+                                    {
+                                        "title": "Prices",
+                                        "children": [],
+                                        "subtitle": ["It is also extremely well priced. ", "This is some really good, inexpensive sushi. ", "And amazingly cheap."]
+                                    },
+                                    {
+                                        "title": "Price",
+                                        "children": [],
+                                        "subtitle": ["It is also extremely well priced. ", "This is some really good, inexpensive sushi. ", "And amazingly cheap."]
+                                    }
+                                ],
+                                "subtitle": ["And really large portions. ", "The food was pretty tradional but it was hot and good with large portions. ", "Just because it's cheap does NOT mean the portions are small or the food is nasty, IT IS GREAT!"]
+                            }
+                        ],
+                        "subtitle": ["Shame on this place for the horrible rude staff and non-existent customer service. ","I was here a few weeks back and we had the worst customer service experience at a restaurant ever. ","This place would be so much better served by being run by a group that actually understands customer service."]
+                    },
+                    {
+                        "title": "Table",
+                        "children": [],
+                        "subtitle": ["The tables are crammed way too close, the menu is typical of any Italian restaurant, and the wine list is simply overpriced. ", "Although the tables may be closely situated, the candle-light, food-quality and service overcompensate."]
+                    }
+                ],
+                "subtitle": ["The prices were cheap compared to the quality of service and food. ","Although the tables may be closely situated, the candle-light, food-quality and service overcompensate. ", "It is definitely a good spot for snacks and chat."]
+            }
+        ],
+        "subtitle": ["I was very disappointed with this restaurant. ", "This tiny restaurant is as cozy as it gets, with that certain Parisian flair. ", "This is a fun restaurant to go to."]
+    }
 ];
 
+export const centroid_reviews = [
+    {
+        "title": "Restaurant",
+        "children": [
+            {
+                "title": "Food",
+                "children": [
+                    {
+                        "title": "Fish",
+                        "children": [
+                            {
+                                "title": "Fish",
+                                "subtitle": ["We had Pam's special fried fish and it was amazing. ", "Fish was overdone. ", "I've never had bad service and the fish is fresh and delicious."],
+                                "children": []
+                            },
+                            {
+                                "title": "Shrimp",
+                                "subtitle": ["My wife had the fried shrimp which are huge and loved it.", "The lobster sandwich is good and the spaghetti with Scallops and Shrimp is great."],
+                                "chldren": []
+                            }
+                        ],
+                        "subtitle": ["We had Pam's special fried fish and it was amazing. ", "Fish was overdone. ", "I've never had bad service and the fish is fresh and delicious."]
+                    },
+                    {
+                        "title": "Food",
+                        "children": [
+                            {
+                                "title": "Pizza",
+                                "children": [],
+                                "subtitle": ["The pizza was delivered cold and the cheese wasn't even fully melted! ", "The pizza is overpriced and soggy. ", "Great pizza and fantastic service."]
+                            },
+                            {
+                                "title": "Sushi",
+                                "children": [],
+                                "subtitle": ["The sushi seemed pretty fresh and was adequately proportioned. ", "This is the best sushi in new york city - hands down. ", "The sushi is amazing!!! "]
+                            },
+                            {
+                                "title": "Food",
+                                "children": [
+                                    {
+                                        "title": "Food",
+                                        "children": [
+                                            {
+                                                "title": "Food",
+                                                "children": [
+                                                    {
+                                                        "title": "Food",
+                                                        "children": [],
+                                                        "subtitle": ["The food was lousy - too sweet or too salty and the portions tiny. ", "I have eaten at Saul, many times, the food is always consistently, outrageously good. ", "Food was okay, nothing great."]
+                                                    },
+                                                    {
+                                                        "title": "Meal",
+                                                        "children": [],
+                                                        "subtitle": ["I think I've had some the best meals of my life at minnow. ", "It's simply the best meal in NYC. ", "We won't go to this place again for a good meal."]
+                                                    },
+                                                    {
+                                                        "title": "Dishes",
+                                                        "children": [],
+                                                        "subtitle": ["The menu is limited but almost all of the dishes are excellent. ", "Excellent atmosphere, delicious dishes good and friendly service. ", "The food was average or above including some surprising tasty dishes."]
+                                                    }
+                                                ],
+                                                "subtitle": ["The food was lousy - too sweet or too salty and the portions tiny. ", "I have eaten at Saul, many times, the food is always consistently, outrageously good. ", "Food was okay, nothing great."]
+                                            },
+                                            {
+                                                "title": "Menu",
+                                                "children": [],
+                                                "subtitle": ["The menu looked great, and the waiter was very nice, but when the food came, it was average. ", "Everything on the menu is great. ", "The menu is fairly simple without much descriptions. "]
+                                            }
+                                        ],
+                                        "subtitle": ["The food was lousy - too sweet or too salty and the portions tiny. ", "I have eaten at Saul, many times, the food is always consistently, outrageously good. ", "Food was okay, nothing great."]
+                                    },
+                                    {
+                                        "title": "Dessert",
+                                        "children": [],
+                                        "subtitle": ["Tiny dessert was $8.00...just plain overpriced for what it is. ", "Someone else recommended the dessert - we also left that. ", "The entree was bland and small, dessert was not inspired."]
+                                    }
+                                ],
+                                "subtitle": ["The food was lousy - too sweet or too salty and the portions tiny. ", "I have eaten at Saul, many times, the food is always consistently, outrageously good. ", "Food was okay, nothing great."]
+                            }
+                        ],
+                        "subtitle": ["The food was lousy - too sweet or too salty and the portions tiny. ", "I have eaten at Saul, many times, the food is always consistently, outrageously good. ", "Food was okay, nothing great."]
+                    }
+                ],
+                "subtitle": ["The food was lousy - too sweet or too salty and the portions tiny. ", "I have eaten at Saul, many times, the food is always consistently, outrageously good. ", "Food was okay, nothing great."]
+            },
+            {
+                "title": "Drinks",
+                "children": [
+                    {
+                        "title": "Wine",
+                        "children": [],
+                        "subtitle": ["Decent wine at reasonable prices. ", "We have been to this place many times, and always have great food, wine, and service. ", "The bar is very well stocked with interesting beers and well priced wines."]
+                    },
+                    {
+                        "title": "Drinks",
+                        "childre": [],
+                        "subtitle": ["The drinks are always welll made and wine selection is fairly priced. ", "Drinks way over priced. ", "We love the food, drinks, and atmosphere!"]
+                    },
+                    {
+                        "title": "Juice",
+                        "children": [],
+                        "subtitle": ["noodles with shrimp and chicken and coconut juice is the MUST!"]
+                    }
+                ],
+                "subtitle": ["The drinks are delicious. ", "Good drinks. ", "Go here for the drinks!"]
+            },
+            {
+                "title": "Service",
+                "children": [
+                    {
+                        "title": "Service",
+                        "children": [
+                            {
+                                "title": "Service",
+                                "children": [
+                                    {
+                                        "title": "Service",
+                                        "subtitle": ["Service- friendly and attentive. ", "however, it's the service that leaves a bad taste in my mouth. ", "Service is top notch."],
+                                        "children": [
+                                            {
+                                                "title": "Service",
+                                                "subtitle": ["Service- friendly and attentive. ", "however, it's the service that leaves a bad taste in my mouth. ", "Service is top notch."],
+                                                "children": []
+                                            },
+                                            {
+                                                "title": "Staff",
+                                                "subtitle": ["All the staff is absolutely professional!! ", "The staff was accomodating, the food was absolutely delicious and the place is lovely.", "The service was impeccable and unobtrusive -- the staff knows what they are there to do -- to know their menu, present your meal, and attend to your needs."],
+                                                "children": []
+                                            },
+                                            {
+                                                "title": "Waiter",
+                                                "subtitle": ["Truly the mark of an attentive waiter. ", "The food is so cheap and the waiters are nice. ", "We were greeted promptly by the waiter who was very nice and cordial."],
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "title": "Place",
+                                        "children": [
+                                            {
+                                                "title": "Place",
+                                                "children": [],
+                                                "subtitle": ["Make sure you try this place as often as you can. ", "This place is great. ", "The place is small and cramped but the food is fantastic."]
+                                            },
+                                            {
+                                                "title": "Ambience",
+                                                "children": [
+                                                    {
+                                                        "title": "Atmosphere",
+                                                        "subtitle": ["Nice atmosphere, the service was very pleasant and the desert was good. ", "There is something about their atmosphere that makes me come back nearly every week. ", "Everyone raved about the atmosphere (elegant rooms and absolutely incomparable views) and the fabulous food!"],
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "title": "Ambiance",
+                                                        "subtitle": ["The ambience is pretty and nice for conversation, so a casual lunch here would probably be best. ", "Ambience is delightful, service impeccable. ", "The location and ambience is Ok but the food is what makes up for it."],
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "title": "Decor",
+                                                        "subtitle": ["Everything is always cooked to perfection, the service is excellent, the decor cool and understated. ", "The decor is night tho...but they REALLY need to clean that vent in the ceiling...its quite un-appetizing, and kills your effort to make this place look sleek and modern. ", "The service is excellent, the decor is great, and the food is delicious and comes in large portions."],
+                                                        "children": []
+                                                    }
+                                                ],
+                                                "subtitle": ["The ambiance is pretty and nice for conversation, so a casual lunch here would probably be best. ", "Ambience is delightful, service impeccable. ", "The location and ambience is Ok but the food is what makes up for it."]
+                                            }
+                                        ],
+                                        "subtitle": ["The place is perfect. ", "Its place is good and the fact that Hutner College is near and their prices are very reasonable, makes students go back to Suan again and again.", "Love the scene first off- the place has a character and nice light to it..very fortunate, location wise."]
+                                    }
+                                ],
+                                "subtitle": ["The hostess and the waitress were incredibly rude and did everything they could to rush us out. ","The counter service is bad. "]
+                            },
+                            {
+                                "title": "Portions",
+                                "children": [
+                                    {
+                                        "title": "Portions",
+                                        "children": [],
+                                        "subtitle": ["And really large portions. ", "The food was pretty traditional but it was hot and good with large portions. ", "Just because it's cheap does NOT mean the portions are small or the food is nasty, IT IS GREAT!"]
+                                    },
+                                    {
+                                        "title": "Prices",
+                                        "children": [],
+                                        "subtitle": ["It is also extremely well priced. ", "This is some really good, inexpensive sushi. ", "And amazingly cheap."]
+                                    },
+                                    {
+                                        "title": "Price",
+                                        "children": [],
+                                        "subtitle": ["It is also extremely well priced. ", "This is some really good, inexpensive sushi. ", "And amazingly cheap."]
+                                    }
+                                ],
+                                "subtitle": ["And really large portions. ", "The food was pretty traditional but it was hot and good with large portions. ", "Just because it's cheap does NOT mean the portions are small or the food is nasty, IT IS GREAT!"]
+                            }
+                        ],
+                        "subtitle": ["Shame on this place for the horrible rude staff and non-existent service. ","I was here a few weeks back and we had the worst customer service experience at a restaurant ever. ","This place would be so much better served by being run by a group that actually understands customer service."]
+                    },
+                    {
+                        "title": "Table",
+                        "children": [],
+                        "subtitle": ["The tables are crammed way too close, the menu is typical of any Italian restaurant, and the wine list is simply overpriced. ", "Although the tables may be closely situated, the candle-light, food-quality and service overcompensate."]
+                    }
+                ],
+                "subtitle": ["The service is excellent. ","We went around 9:30 on a Friday and it had died down a bit by then so the service was great! ","Service- friendly and attentive."]
+            }
+        ],
+        "subtitle": ["I was very disappointed with this restaurant. ", "This tiny restaurant is as cozy as it gets, with that certain Parisian flair. ", "This is a fun restaurant to go to."]
+    }
+];
