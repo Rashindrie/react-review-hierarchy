@@ -21,38 +21,36 @@ export default class Tree extends Component {
                     <Dropdown trigger={
                         <Button floating icon={"label_outline"}/>
                     }>
-                        <NavItem onClick={()=> {document.getElementById("customized").style.display='block';document.getElementById("centroid").style.display='none'}}>Customized label</NavItem>
+                        <NavItem onClick={() => {
+                            document.getElementById("customized").style.display = 'block';
+                            document.getElementById("centroid").style.display = 'none'
+                        }}>Customized label</NavItem>
                         <NavItem divider/>
-                        <NavItem onClick={()=> {document.getElementById("customized").style.display='none';document.getElementById("centroid").style.display='block'}}>Centroid-Based label</NavItem>
+                        <NavItem onClick={() => {
+                            document.getElementById("customized").style.display = 'none';
+                            document.getElementById("centroid").style.display = 'block'
+                        }}>Centroid-Based label</NavItem>
                     </Dropdown>
                 </div>
 
-                <div id="customized" style={{display: 'block'}}>
-                    <Collapsible>
-                        <CollapsibleItem header='Restaurant - Eleven Madison Park' icon='restaurant_menu'>
-                            <div style={{height: 800}}>
-                                <SortableTree
-                                    treeData={this.state.treeData}
-                                    onChange={treeData => this.setState({treeData})}
-                                    rowHeight={75}
-                                />
-                            </div>
-                        </CollapsibleItem>
-                    </Collapsible>
+                <div id="customized" style={{display: 'block', paddingTop: '25px'}}>
+                    <div style={{height: 800}}>
+                        <SortableTree
+                            treeData={this.state.treeData}
+                            onChange={treeData => this.setState({treeData})}
+                            rowHeight={75}
+                        />
+                    </div>
                 </div>
 
-                <div id={"centroid"} style={{display: 'none'}}>
-                    <Collapsible>
-                        <CollapsibleItem header='Restaurant - Eleven Madison Park' icon='restaurant_menu'>
-                            <div style={{height: 800}}>
-                                <SortableTree
-                                    treeData={this.state.centroidTreeData}
-                                    onChange={centroidTreeData => this.setState({centroidTreeData})}
-                                    rowHeight={75}
-                                />
-                            </div>
-                        </CollapsibleItem>
-                    </Collapsible>
+                <div id={"centroid"} style={{display: 'none', paddingTop: '25px'}}>
+                    <div style={{height: 800}}>
+                        <SortableTree
+                            treeData={this.state.centroidTreeData}
+                            onChange={centroidTreeData => this.setState({centroidTreeData})}
+                            rowHeight={75}
+                        />
+                    </div>
                 </div>
             </div>
 

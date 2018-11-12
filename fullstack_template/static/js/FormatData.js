@@ -170,7 +170,7 @@ export const reviews = [
                                 "subtitle": ["The hostess and the waitress were incredibly rude and did everything they could to rush us out. ","The counter service is bad. "]
                             },
                             {
-                                "title": "Worthiness",
+                                "title": "Cost",
                                 "children": [
                                     {
                                         "title": "Portions",
