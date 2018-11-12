@@ -1,6 +1,6 @@
 export const reviews = [
     {
-        "title": "Restaurant",
+        "title": "Eleven Madison Park",
         "children": [
             {
                 "title": "Food",
@@ -202,13 +202,13 @@ export const reviews = [
                 "subtitle": ["The prices were cheap compared to the quality of service and food. ","Although the tables may be closely situated, the candle-light, food-quality and service overcompensate. ", "It is definitely a good spot for snacks and chat."]
             }
         ],
-        "subtitle": ["I was very disappointed with this restaurant. ", "This tiny restaurant is as cozy as it gets, with that certain Parisian flair. ", "This is a fun restaurant to go to."]
+        "subtitle": [ "Overall, excellent restaurant! ","I highly recommend the restaurant based on our experience last night. ","Nice Family owned traditional restaurant. ","I thanked my friend who recommended me this restaurant and will certainly recommend it to others."]
     }
 ];
 
 export const centroid_reviews = [
     {
-        "title": "Restaurant",
+        "title": "Eleven Madison Park",
         "children": [
             {
                 "title": "Food",
@@ -410,6 +410,6 @@ export const centroid_reviews = [
                 "subtitle": ["The service is excellent. ","We went around 9:30 on a Friday and it had died down a bit by then so the service was great! ","Service- friendly and attentive."]
             }
         ],
-        "subtitle": ["I was very disappointed with this restaurant. ", "This tiny restaurant is as cozy as it gets, with that certain Parisian flair. ", "This is a fun restaurant to go to."]
+        "subtitle": [ "Overall, excellent restaurant! ","I highly recommend the restaurant based on our experience last night. ","Nice Family owned traditional restaurant. ","I thanked my friend who recommended me this restaurant and will certainly recommend it to others."]
     }
 ];

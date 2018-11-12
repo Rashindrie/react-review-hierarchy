@@ -29,7 +29,7 @@ export default class Tree extends Component {
 
                 <div id="customized" style={{display: 'block'}}>
                     <Collapsible>
-                        <CollapsibleItem header='Restaurant' icon='restaurant_menu'>
+                        <CollapsibleItem header='Restaurant - Eleven Madison Park' icon='restaurant_menu'>
                             <div style={{height: 800}}>
                                 <SortableTree
                                     treeData={this.state.treeData}
@@ -43,7 +43,7 @@ export default class Tree extends Component {
 
                 <div id={"centroid"} style={{display: 'none'}}>
                     <Collapsible>
-                        <CollapsibleItem header='Restaurant' icon='restaurant_menu'>
+                        <CollapsibleItem header='Restaurant - Eleven Madison Park' icon='restaurant_menu'>
                             <div style={{height: 800}}>
                                 <SortableTree
                                     treeData={this.state.centroidTreeData}
